@@ -483,15 +483,15 @@
                     <textarea class="modal-form-message" name="user-message" placeholder="Введіть текст"></textarea>
                 </label>
 
-                <div class="checkbox-box">
-                    <input type="checkbox" class="modal-form-check" required name="user-agreement"><label
-                        class="modal-form-checkfield"><span class="">
-                            <svg class="" width="" height="">
-                                <use class="" href=></use>
-                            </svg></span>Погоджуюся
-                        з розсилкою та приймаю&nbsp<a href="#" class="">Умови договору</a>
-                    </label>
-                </div>
+                <label class="modal-form-check-field">
+                    <input type="checkbox" class="modal-form-check" required name="user-agreement" />
+                    <svg class="modal-form-own-checkbox" width="16px" height="15px">
+                        <use class="modal-form-own-checkbox-icon" href="./images/sprite.svg#icon-icon-check">
+                        </use>
+                    </svg></span class="modal-text-agreement">Погоджуюся
+                    з розсилкою та приймаю&nbsp;<a href="#" class="modal-text-agreement-link">Умови договору</a>
+                </label>
+                <button type="submit" class="modal-form-btnsubmit">Відправити</button>
             </form>
         </div>
     </div>
